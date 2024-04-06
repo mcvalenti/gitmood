@@ -8,13 +8,7 @@
  */
 
 #include<iostream>
-
-void interchange(int& a, int& b){
-	int aux;
-	aux = b;
-	b = a;
-	a = aux;
-}
+#include"functions.h"
 
 int main(){
 
