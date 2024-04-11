@@ -12,6 +12,8 @@
 
 void interchange(int& a, int& b);
 int array_sum(int* vec);
+void transpose_matrix(int ma[][3], int nrows, int ncol, int ma_t[][2]);
+
 
 
 #endif /* FUNCTIONS_H_ */

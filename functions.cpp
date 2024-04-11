@@ -24,3 +24,12 @@ int array_sum(int* vec){
 	return suma;
 }
 
+void transpose_matrix(int ma[][3], int nrows, int ncol, int ma_t[][2]){
+	int i, j;
+	for (i=0;i<nrows;i++){
+		for (j=0;j<ncol;j++){
+			ma_t[j][i]=ma[i][j];
+		}
+	}
+}
+
