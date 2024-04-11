@@ -14,3 +14,13 @@ void interchange(int& a, int& b){
 	b = a;
 	a = aux;
 }
+
+int array_sum(int* vec){
+	int i;
+	int suma=0;
+	for (i=0; i<2; i++){
+		suma += vec[i];
+	}
+	return suma;
+}
+

@@ -11,6 +11,7 @@
 
 
 void interchange(int& a, int& b);
+int array_sum(int* vec);
 
 
 #endif /* FUNCTIONS_H_ */
