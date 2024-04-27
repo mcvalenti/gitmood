@@ -8,17 +8,27 @@
  */
 
 #include<iostream>
+#include"classes_and_overloading.h"
 #include"functions.h"
 
 
 int main(){
+
+	Person ceci;
+	std::cout<<" Input your name and age"<<std::endl;
+	std::cin>>ceci;
+	std::cout<<ceci<<std::endl;
+
+	return 0;
+
+}
 	/*
 	---------------------------------------------------
 	Passing a 2D Array to function
 	---------------------------------------------------
 	1) using static arrays
 	2) usign dynamic arrays
-	*/
+
 
 	// Passing 2D Array with only the Number of Columns
 	int i,j;
@@ -64,12 +74,7 @@ int main(){
 	}
 
 	delete [] table_t;
-	table_t=NULL;
-
-	return 0;
-
-}
-
+	table_t=NULL;*/
 	/*
 	// ---------------------------------------------------
 	// Transpose matrix (static memory)
